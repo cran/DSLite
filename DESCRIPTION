@@ -1,6 +1,6 @@
 Package: DSLite
 Type: Package
-Version: 1.1.0
+Version: 1.2.0
 Title: 'DataSHIELD' Implementation on Local Datasets
 Authors@R: 
     c(person(given = "Yannick",
@@ -8,7 +8,7 @@ Authors@R:
              role = c("aut", "cre"),
              email = "yannick.marcon@obiba.org",
              comment = c(ORCID = "0000-0003-0138-2023")))
-Depends: R (>= 3.5.0), DSI (>= 1.1), methods, R6
+Depends: R (>= 3.5.0), DSI (>= 1.2), methods, R6
 Suggests: resourcer, knitr, testthat, rmarkdown
 Description: 'DataSHIELD' is an infrastructure and series of R packages that 
     enables the remote and 'non-disclosive' analysis of sensitive research data.
@@ -28,8 +28,8 @@ Collate: 'DSLiteDriver.R' 'DSLiteConnection.R' 'DSLiteResult.R'
         'setupDASIMTest.R' 'setupDATASETTest.R' 'setupDISCORDANTTest.R'
         'setupDSLiteServer.R' 'setupSURVIVALTest.R'
 NeedsCompilation: no
-Packaged: 2020-05-18 12:21:01 UTC; yannick
+Packaged: 2021-03-16 08:33:48 UTC; yannick
 Author: Yannick Marcon [aut, cre] (<https://orcid.org/0000-0003-0138-2023>)
 Maintainer: Yannick Marcon <yannick.marcon@obiba.org>
 Repository: CRAN
-Date/Publication: 2020-05-18 13:40:02 UTC
+Date/Publication: 2021-03-16 09:10:05 UTC
