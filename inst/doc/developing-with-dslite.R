@@ -51,8 +51,5 @@ knitr::opts_chunk$set(
 #  data1 <- getDSLiteData(conns$sim1, "D")
 
 ## ----eval=FALSE---------------------------------------------------------------
-#  someregression(D$height ~ D$diameter + poly(D$length,3,raw=TRUE))
-
-## ----eval=FALSE---------------------------------------------------------------
 #  base::assign(x = "D", value = someValue, envir = parent.frame())
 
